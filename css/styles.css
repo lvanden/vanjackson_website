@@ -30,6 +30,10 @@ h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
 }
+h5 {
+    padding: 0;
+    margin: 0;
+}
 a {
     color: #29454D;
     text-decoration: none;
@@ -38,11 +42,6 @@ a {
 .wrapper {
     width: 80%;
     margin: 0 auto;
-}
-nav{
-    border-top: 1px solid #29454D;
-    border-bottom: 1px solid #29454D;
-
 }
 nav ul{
     margin: 0;
@@ -68,29 +67,45 @@ footer {
     margin: 0.5rem 0;
     padding: 1rem 0;
     border-top: 1px solid #29454D;
-    color: #29454D
+    color: #29454D;
 }
 footer ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
+    text-align: center;
 }
 footer li{
-   
+    display: inline-block;
+    text-align: center;    
 }
-/* Style all font awesome icons 
+
+.footend {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+/* Style all font awesome icons */
 .fab {
-    padding: 20px;
+    padding: 5px;
     font-size: 30px;
-    width: 50px;
     text-align: center;
     text-decoration: none;
   }
-  */
-  /* Add a hover effect if you want 
-  .fa:hover {
+  .fas {
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none; 
+  }
+  
+  /* Add a hover effect if you want */
+  .fab:hover {
     opacity: 0.7;
-  }*/
+  }
+  .fas:hover {
+      opacity: 0.7;
+  }
   /* Set a specific color for each brand */
 
 /* Facebook 
