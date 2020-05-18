@@ -13,13 +13,17 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
 }
-h1, h2,  h4, h5, h6 {
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 600;
+}
+h2,  h4, h5, h6 {
     font-family: 'Monda', sans-serif;
     font-weight: 400;
 }
 h2 {
-    font-size: 2rem;
-    color: #A51F10;
+    font-size: 1.5rem;
+    color: #7fb3ac;
     margin: 0;
 }
 h3 {
@@ -27,11 +31,8 @@ h3 {
     font-weight: 400;
 }
 a {
-    color: #DA0090;
+    color: #29454D;
     text-decoration: none;
-}
-a:hover {
-    
 }
     
 .wrapper {
@@ -54,6 +55,7 @@ nav li {
     display: inline-block;
     padding: 0.5rem 1rem; 
     font-size: 1.15rem; 
+    font-family: 'Monda', sans-serif;
 }
 nav a{
     color: #29454D;
@@ -65,7 +67,8 @@ nav a:hover{
 footer {
     margin: 0.5rem 0;
     padding: 1rem 0;
-    border-top: 1px solid maroon;
+    border-top: 1px solid #29454D;
+    color: #29454D
 }
 footer ul {
     padding: 0;
@@ -73,5 +76,31 @@ footer ul {
     list-style-type: none;
 }
 footer li{
-    display: inline-block;
+   
 }
+/* Style all font awesome icons 
+.fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  */
+  /* Add a hover effect if you want 
+  .fa:hover {
+    opacity: 0.7;
+  }*/
+  /* Set a specific color for each brand */
+
+/* Facebook 
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  } */
+  
+  /* Twitter 
+  .fa-twitter-square {
+    background: #55ACEE;
+    color: white;
+  }*/
