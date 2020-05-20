@@ -21,6 +21,7 @@ font-family: 'Ubuntu', sans-serif; */
   .dark-mode .fa-moon {
     display: none;
   }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -157,3 +158,14 @@ footer li{
   }
 
 
+  .col-sm-3 {
+    position:relative;min-height:1px;padding-right:15px;padding-left:15px
+  }
+  .container-projects {
+      text-align: center;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
