@@ -61,7 +61,7 @@ a {
 }
     
 .wrapper {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 nav ul{
@@ -102,6 +102,12 @@ header h1{
     padding: 0;
     margin: 0 0 1rem 0;
 }
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
 footer {
     margin: 0.5rem 0;
     padding: 1rem 0;
@@ -132,43 +138,62 @@ footer li{
     text-decoration: none;
     color: #29454D
   }
-  .fas {
+.fas {
     padding: 5px;
     font-size: 30px;
     text-align: center;
     text-decoration: none; 
     color: #29454D
-  }
+}
   
-  .fab:hover {
+.fab:hover {
     opacity: 0.7;
-  }
-  .fas:hover {
+}
+.fas:hover {
       opacity: 0.7;
-  }
+ }
 
   /* Light/Dark Toggle */
-  .navbar {
+.navbar {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-  }
+ }
 
-  .leftside {
+.leftside {
       margin: 0;
       padding: 0;
       flex-basis: 30%;
-  }
+}
 
+.column {
+    margin: 0;
+    padding: 0 20px;
+    position:relative;
+    float: left;
+    width: 50%;
+    min-height:1px;
+}
+.column p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 1.2rem;
+}
 
-  .col-sm-3 {
-    position:relative;min-height:1px;padding-right:15px;padding-left:15px
-  }
-  .container-projects {
-      text-align: center;
-  }
-  .row {
+.projects-grid {
+  text-align: center;
+}
+.row {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-  }
+    flex: 50%;
+    padding: 50px 25px;
+}
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
