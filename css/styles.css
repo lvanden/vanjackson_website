@@ -56,7 +56,7 @@ h5 {
     margin: 0;
 }
 a {
-    color: #29454D;
+    color: white;
     text-decoration: none;
 }
     
@@ -108,11 +108,28 @@ header h1{
     margin: 0 auto;
     padding: 5rem 0;
 }
+#connect {
+    text-align: center;
+    width: 50%;
+}
+button {
+	margin: 1.5rem 0;
+	background-color: #7fb3ac;
+	color: white;
+	border: none;
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+	border-radius: 4px;
+}
+button:hover {
+	opacity: 0.7;
+}
+
 footer {
     margin: 0.5rem 0;
     padding: 1rem 0;
-    border-top: 1px solid #29454D;
-    color: #29454D;
+    background-color: #7fb3ac;
+    color: white
 }
 footer ul {
     padding: 0;
@@ -136,14 +153,14 @@ footer li{
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-    color: #29454D
+    color: white;
   }
 .fas {
     padding: 5px;
     font-size: 30px;
     text-align: center;
     text-decoration: none; 
-    color: #29454D
+    color:white;
 }
   
 .fab:hover {
