@@ -113,13 +113,16 @@ header h1{
     width: 50%;
 }
 button {
-	margin: 1.5rem 0;
-	background-color: #7fb3ac;
-	color: white;
-	border: none;
+    margin: 1.5rem 0;
+    background-color: white;
+	color: #7fb3ac;
+	border: 5px solid #7fb3ac;
 	font-size: 1rem;
 	padding: 0.5rem 1rem;
 	border-radius: 4px;
+}
+button a {
+    color:  #7fb3ac;
 }
 button:hover {
 	opacity: 0.7;
