@@ -2,13 +2,15 @@
 font-family: 'Lora', serif;
 font-family: 'Monda', sans-serif;
 font-family: 'Source Code Pro', monospace;
-font-family: 'Ubuntu', sans-serif; */
+font-family: 'Ubuntu', sans-serif;
+color:#7fb3ac;
+
+ */
 
   html{
     --bg: #FCFCFC;
     --color-text: #29454D;
     --color-header: black;
-    --color-text-active: #7fb3ac ;
     box-sizing: border-box;
   }
 
@@ -16,10 +18,9 @@ font-family: 'Ubuntu', sans-serif; */
     --bg: #1d1f20;
     --color-text: #777;
     --color-header: white;
-    --color-text-active: #7fb3ac;
+
   }
   .dark-mode .fa-sun {
-    color:#7fb3ac;
   }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -172,7 +173,6 @@ footer li{
       opacity: 0.7;
  }
 
-  /* Light/Dark Toggle */
 .navbar {
     display: flex;
     flex-flow: row nowrap;
